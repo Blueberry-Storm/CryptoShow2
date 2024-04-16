@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoShow</title>
+    <link rel="stylesheet" href="css/events.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>CryptoShow</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="events.html">Events</a></li>
+            <li><a href="devices.html">Devices</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="events-container">
+            <h1>Upcoming Events</h1>
+            <div class="grid">
+                <!-- Event cards will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Modal for displaying event details -->
+        <div id="eventModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Event Title</h2>
+                <p>Event Description</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/events.js"></script>
+</body>
+</html>
